@@ -1,6 +1,4 @@
-def main():
-    print("Hello from expense-tracker-api-d4!")
+from fastapi import FastAPI
+from schemas import ExpenseCreate, ExpenseResponse
 
-
-if __name__ == "__main__":
-    main()
+app = FastAPI()
