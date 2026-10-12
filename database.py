@@ -3,10 +3,10 @@ from sqlalchemy import create_engine
 
 
 
-DATABSE_URL = "sqlite:///./expenses.db"
+DATABASE_URL = "sqlite:///./expenses.db"
 
 engine = create_engine(
-    DATABSE_URL,
+    DATABASE_URL,
     connect_args={"check_same_thread": False}
 )
 

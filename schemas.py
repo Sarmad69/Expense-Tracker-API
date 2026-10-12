@@ -24,3 +24,7 @@ class ExpenseResponse(BaseModel):
     amount: Decimal
     category: str
     date: date
+
+class ExpenseSummary(BaseModel):
+
+    total: Decimal
